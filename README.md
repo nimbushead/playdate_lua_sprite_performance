@@ -14,8 +14,8 @@ In each file, the refresh rate is set to 50 FPS, the sprite update function is a
 * `movement-main.lua`
   * 200 instances of a class that extends the Playdate sprite class. The update method uses `moveTo` with the sprite's `dx` and `dy` values added to its `x` and `y` values.
 * `collision-movement-main.lua`
-  * 40 instances of a class that extends the Playdate sprite class. The update method uses `moveWithCollisions` with the sprite's `dx` and `dy` values added to its `x` and `y` values.
+  * 40 instances of a class that extends the Playdate sprite class. The update method uses `moveWithCollisions` with the sprite's `dx` and `dy` values added to its `x` and `y` values. Each has a collide rect of 1x1, groups = {1}, and collidesWithGroups = {2}.
 * `mixed-main.lua`
-  * 20 instances of a class that extends the Playdate sprite class. The update method uses `moveWithCollisions` with the sprite's `dx` and `dy` values added to its `x` and `y` values.
+  * 20 instances of a class that extends the Playdate sprite class. The update method uses `moveWithCollisions` with the sprite's `dx` and `dy` values added to its `x` and `y` values. Each has a collide rect of 1x1, groups = {1}, and collidesWithGroups = {2}.
   * 100 instances of a class that extends the Playdate sprite class. The update method uses `moveTo` with the sprite's `dx` and `dy` values added to its `x` and `y` values.
   * 125 empty sprites.
