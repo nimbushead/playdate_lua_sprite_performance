@@ -1,7 +1,7 @@
 # playdate_lua_sprite_performance
 A repository for exploring the limits of sprites using Lua for Playdate
 
-This repository includes 8 lua files. Each can be renamed to `main.lua` and put into your project's `Source` folder. Play around with the number of sprites and what each sprite does to make new discoveries!
+This repository includes 9 lua files. Each can be renamed to `main.lua` and put into your project's `Source` folder. Play around with the number of sprites and what each sprite does to make new discoveries!
 
 ## Summary
 
@@ -27,3 +27,5 @@ In each file, the refresh rate is set to 50 FPS and an effective frame rate of 4
 * `overlapping-collisions-main.lua`
   * 8 instances of a class that extends the Playdate sprite class. The update method uses `moveTo` with the sprite's `dx` and `dy` values added to its `x` and `y` values. Each has a collide rect of 1x1, groups = {1}, and collidesWithGroups = {1}.
   * `allOverlappingSprites` is called in the `playdate.update` function.
+* `overlapping-sprites-main.lua`
+  * 21 instances of a class that extends the Playdate sprite class. The update method uses `moveTo` with the sprite's `dx` and `dy` values added to its `x` and `y` values, then it calls `sprite:overlappingSprites`. Each has a collide rect of 1x1, groups = {1}, and collidesWithGroups = {1}.
