@@ -1,7 +1,7 @@
 # playdate_lua_sprite_performance
 A repository for exploring the limits of sprites using Lua for Playdate
 
-This repository includes 6 lua files. Each can be renamed to `main.lua` and put into your project's `Source` folder. Play around with the number of sprites and what each sprite does to make new discoveries!
+This repository includes 8 lua files. Each can be renamed to `main.lua` and put into your project's `Source` folder. Play around with the number of sprites and what each sprite does to make new discoveries!
 
 ## Summary
 
